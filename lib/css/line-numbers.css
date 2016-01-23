@@ -1,0 +1,22 @@
+/**
+ * Place this file in your Reveal.js presentation in 'lib/css/'.
+ */
+
+code {
+  counter-reset: line;
+}
+
+code span.line-number {
+  counter-increment: line;
+  min-width: 26px;
+  display: inline-block;
+  border-right: 1px solid rgba(143, 143, 143, 0.5);
+  margin-right: 9px;
+  text-align: right;
+  padding-right: 3px;
+}
+
+code span.line-number:before {
+  content: counter(line);
+  color: gray;
+}

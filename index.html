@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Do Things, Tell People</title>
+    <meta name="description" content="An introduction to testing Firefox OS with Marionette JS">
+    <meta name="author" content="Michael Henretty">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+    body {
+      background-color: rgb(10, 0, 102);
+    }
+    .reveal .slides section img {
+      max-height: 130px;
+      margin: 0;
+      background: none;
+      border: none;
+      box-shadow: unset;
+      border-radius: 10px;
+    }
+    .reveal .slides section.underlay {
+      background-color: rgba(0, 0, 0, 0.85);
+      border-radius: 28px;
+    }
+    .reveal .slides h2,
+    .reveal .slides h3,
+    .reveal .slides h4 {
+      text-transform: unset;
+    }
+    .reveal .slides h1 {
+      color: white;
+      animation: blinker 4s linear infinite;
+      font-size: 235px;
+      font-family: Impact, Charcoal, sans-serif;
+    }
+    @keyframes blinker {
+        50% { color: #00CAF2; }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section class="underlay" data-background="img/bg.png">
+          <h2>Hi ☺</h2>
+          <img src="img/me.jpg" />
+          <p>Michael Henretty</p>
+          <p>Engineer for Connected Devices</p>
+          <a href="https://twitter.com/mikehenrty">twitter.com/mikehenrty</a><br />
+          <a href="https://github.com/mikehenrty">github.com/mikehenrty</a><br />
+          <a href="mailto:mikey@mozilla.com">mikey@mozilla.com</a>
+        </section>
+
+        <section class="underlay">
+          <h1>Do Things</h1>
+        </section>
+
+        <section class="underlay">
+          <h1>Tell People</h1>
+        </section>
+
+
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/line-numbers.js' },
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>

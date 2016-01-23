@@ -1,0 +1,36 @@
+Do Things
+ - start a meetup
+ - start making a game
+ - join a club
+ - go to a hackathon
+ - join a mailing list
+ - fix a bug
+
+Tell People
+ - don't be silent
+ - don't be modest
+ - don't fear judgement
+ - don't make it a secret!
+ - How?
+   * social media
+   * blog
+   * publish source code
+   * talk on mailing lists
+   * IRC
+
+Story ideas:
+ - Carl, flax
+   student in small city in Ireland
+   wanted to make a game for the web
+   starts a blog to document process
+ - Teddy, js1K
+   15 year old
+   living in nowhere USA (Tennesee)
+   enters JS1K competition
+   puts code up on github
+ - 
+
+How to apply?
+ - preaching to the choir
+ - all of you are here because you have done this
+ - remember, life long process
